@@ -15,6 +15,8 @@ var Cat = function() {
     var breed;
 };
 
+// Gives the Dog/Cat object the ability to use the speak function
+// This is a way of expanding the Dob object's functionality
 Dog.prototype.speak = speak;
 Cat.prototype.speak = speak;
 
