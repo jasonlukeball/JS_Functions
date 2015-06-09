@@ -1,14 +1,19 @@
+//
 var speak = function(saywhat) {
   console.log(saywhat);
-}
+};
 
+// Setup Dog Object
 var Dog = function() {
-  var name, breed;
-}
+    var name;
+    var breed;
+};
 
+// Setup Cat Object
 var Cat = function() {
-  var name, breed;
-}
+    var name;
+    var breed;
+};
 
 Dog.prototype.speak = speak;
 Cat.prototype.speak = speak;
@@ -22,3 +27,4 @@ firstCat = new Cat;
 firstCat.name = "Sniggles";
 firstCat.breed = "Manx";
 firstCat.speak('meow');
+

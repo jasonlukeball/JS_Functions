@@ -8,6 +8,6 @@ var calc = {
       console.log(this.status)
     )
   }
-}
+};
 
 calc.plus(2,2);
